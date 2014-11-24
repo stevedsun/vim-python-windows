@@ -21,7 +21,7 @@ Vim python windows平台开发配置文件
 
 更换字体，请将_vimrc里的字体设置部分修改为你的字体：
 
-    set guifont=Courier New:h14
+    set guifont=Courier_New:h14
 
 插件说明
 
