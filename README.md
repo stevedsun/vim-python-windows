@@ -5,16 +5,10 @@ Vim python windows平台开发配置文件
 适用于python开发的Vim插件配置，需要gVim版本大于7.4
 使用方法
 
-下载全部文件后，复制vim安装目录覆盖同名文件，如果使用rope的定义跳转等功能，需要用pip额外安装python的支持库： （请先确认已经配置好pip后执行下面的操作）
-
-    pip install rope
-
-再进入插件目录vimfiles/bundle/ropevim/下执行:
-
-    python setup.py install
+把全部文件拉去到本地后，复制到vim安装目录覆盖同名文件，直接使用gvim就已经具备大部分功能了。（定义跳转请自行搜索ctags安装使用方法）
 
 
-不想使用的插件，可以直接在插件Bundle前边增加"注释掉这行，例如关闭Indent-Guides插件:
+不想使用的插件，可以直接在插件配置文件_vimrc里的Bundle前边增加"注释掉这行，例如关闭Indent-Guides插件:
 
     "Bundle 'Indent-Guides'
 
@@ -62,10 +56,7 @@ Vim python windows平台开发配置文件
     Bundle 'pep8'
     "python文档
     Bundle 'pydoc.vim'
-    "文档搜索，需要在系统里安装ack-grep
-    Bundle 'ack.vim'
-    "python补全，跳转，重构(前提pip install rope,ropemode,并且在.vim/bundle/ropevim目录下执行python setup.py install安装)
-    Bundle 'ropevim'
+
 
 快捷键说明
 
