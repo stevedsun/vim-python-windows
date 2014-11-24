@@ -33,7 +33,7 @@ set fileencoding=utf-8
 "to install Monaco font, use "curl -kL https://raw.github.com/cstrap/monaco-font/master/install-font-ubuntu.sh | bash"
 "set guifont=Menlo:h15
 "set guifont=UbuntuMono\ 14
-set guifont=Courier New:14
+set guifont=Arial:h14:cANSI
 winpos 5 5
 syn on
 syntax enable
