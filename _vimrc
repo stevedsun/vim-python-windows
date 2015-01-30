@@ -39,7 +39,7 @@ syn on
 syntax enable
 set t_Co=256
 set background=dark
-colorscheme wombat256mod
+colorscheme monokai
 "为mac中文输入法设置
 set noimdisable
 autocmd! InsertLeave * set imdisable|set iminsert=0
@@ -264,9 +264,10 @@ Bundle 'pep8'
 "python文档
 Bundle 'pydoc.vim'
 "文档搜索，需要在系统里安装ack-grep
-Bundle 'ack.vim'
+"Bundle 'ack.vim'
 "python补全，跳转，重构(前提pip install
 "rope,ropemode,并且在ropevim目录下执行setup.py安装)
-Bundle 'ropevim'
+"Bundle 'ropevim'
+Bundle 'jedi-vim'
 filetype plugin indent on
 
